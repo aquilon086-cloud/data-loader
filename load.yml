@@ -30,9 +30,9 @@ jobs:
           NEON_CONNECTION_STRING: ${{ secrets.NEON_API_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: gcp-key.json
           # --- TODO: studenci uzupełniają poniższe trzy wartości ---
-          BQ_PROJECT_ID: inzynieria-danych
-          BQ_DATASET: lab3
-          BQ_TABLE: test
+          BQ_PROJECT_ID: project-527631c4-3090-4bf8-80d
+          BQ_DATASET: My First Project
+          BQ_TABLE: GPU
         run: python extract_load.py
 
       - name: Clean up key file
