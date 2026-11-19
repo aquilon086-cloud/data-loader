@@ -1,0 +1,7 @@
+sources:
+  - name: lab3
+    database: project-527631c4-3090-4bf8-80d
+    schema: GPU
+    tables:
+      - name: servers
+        identifier: Test
